@@ -7,9 +7,6 @@ export const utilService = {
     randomPetType
 }
 
-const gPetNames = ['Bob', 'Charls', 'Chip']
-const gPetTypes = ['cat', 'dog', 'bird', 'fish', 'rabbit']
-
 function saveToStorage(key, value) {
     localStorage.setItem(key, JSON.stringify(value))
 }
