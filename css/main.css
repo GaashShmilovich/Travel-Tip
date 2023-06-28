@@ -1,0 +1,17 @@
+#map {
+    width: 30wh;
+    height: 30vh;
+}
+
+.grid {
+    display: grid;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+input {
+    height: 20px;
+    align-self: center;
+}
