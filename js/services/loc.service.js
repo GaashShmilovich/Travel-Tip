@@ -1,3 +1,5 @@
+import { storageService } from "./a-sync-storage.service"
+
 export const locService = {
     getLocs
 }

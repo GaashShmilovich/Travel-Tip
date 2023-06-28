@@ -1,5 +1,9 @@
 export const storageService = {
-    
+    post,   // Create
+    get,    // Read
+    put,    // Update
+    remove, // Delete
+    query,  // List 
 }
 
 
