@@ -1,38 +1,36 @@
 body {
-   
 }
 
 #map {
-    width: 20em;
-    height: 30vh;
+  width: 20em;
+  height: 30vh;
 }
 
 .grid {
-    display: grid;
+  display: grid;
 }
 
 .collum {
-    grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
 }
 
 .location {
-    background-color: rgb(43, 81, 114);
-    width: 20em;
-    height: 15vh;
+  background-color: rgb(43, 81, 114);
+  width: 20em;
+  height: 15vh;
 }
 
 header {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 form {
-    height: 20px;
-   
+  height: 20px;
 }
 
 button {
-    height: max-content;
-    width: max-content;
+  height: max-content;
+  width: max-content;
 }
