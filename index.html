@@ -9,7 +9,10 @@
 <body class="grid">
     <header>
     <h1>Travel Tip</h1>
-    <input type="text">
+    <form onsubmit="onSearch(event)">
+    <input type="search" id="location-search" placeholder="Enter location">
+    <button class="go-search">GO</button>
+    </form>
     </header>
     <div  id="map" ></div>
     <button onclick="onAddMarker()" class="btn-add-marker">Add Marker Speific Location</button>
