@@ -1,5 +1,7 @@
+import { storageService } from "./async-storage.service.js"
+import { utilService } from './util.service.js'
 
-import { storageService } from "./a-sync-storage.service.js"
+const LOCS_KEY = 'locsDB'
 
 export const locService = {
     getLocs
@@ -12,5 +14,6 @@ const locs = [
 ]
 
 function getLocs() {
-    return query()
+    const locs = storageService.query(LOCS_KEY)
+    return locs
 }
